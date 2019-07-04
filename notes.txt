@@ -1,0 +1,29 @@
+TODO: 
+Dark Mode
+if screen is X small, change underscore_kb to just say _kb via js
+
+layout looks good
+colors look good
+need to figure out how I want
+    to give the user the abilty
+    to choose what they want to see
+    
+
+
+css is too complicated - simplify
+
+.background-color {    
+    background-color: #222831;
+}
+
+.foreground-color {
+    background-color: #900048;
+}
+
+.secondary-color {
+    background-color: #ff8260;
+}
+
+.tertiary-color {
+    background-color: #2d132c;
+}
