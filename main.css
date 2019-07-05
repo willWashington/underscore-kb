@@ -71,7 +71,7 @@ article {
 
 /* THEME COLORS */
 
-.background-color {
+/* .background-color {
     background-color: #222831;
 }
 
@@ -81,6 +81,22 @@ article {
 
 .secondary-color {
     background-color: #ff8260;
+}
+
+.tertiary-color {
+    background-color: #010402;    
+} */
+
+.background-color {
+    background-color: #fff;
+}
+
+.foreground-color {
+    background-color: lightslategray;
+}
+
+.secondary-color {
+    background-color: bisque;
 }
 
 .tertiary-color {

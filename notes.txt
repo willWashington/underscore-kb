@@ -1,19 +1,18 @@
-TODO: 
-Dark Mode
-if screen is X small, change underscore_kb to just say _kb via js
-
+DONE:
 layout looks good
-colors look good
-need to figure out how I want
-    to give the user the abilty
-    to choose what they want to see
+
+TODO: 
+Light Mode
+Dark Mode
+if screen is X small, 
+    change underscore_kb to 
+    just say _kb via js
 
 create dropdown for language
-once done, create js swapper script
-    to swap out the cards under
-    each language
 allow users to search inside languages
 
+adjust drop shadow on card - remove folder
+    style and add card style
 
 css is too complicated - simplify
 
