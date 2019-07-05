@@ -8,17 +8,16 @@ body {
 }
 
 .page-container {
-    width: 95%;
+    width: 100%;
     height: 85%;
     padding: 5px;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 5px;
     border: solid gray;
 }
 
 /* Style the header */
 header {
-    padding: 30px;
+    padding: 5px;
     text-align: center;
     font-size: 35px;
     color: white;
@@ -62,25 +61,10 @@ article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
-    height: 500px;
+    height: 300px;
+    width: 100%;
     background-color: #f1f1f1;
     padding: 10px;
-}
-
-/* Style the footer */
-footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
-}
-
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    section {
-        -webkit-flex-direction: column;
-        flex-direction: column;
-    }
 }
 
 /* END MAIN CONTROL */
@@ -100,7 +84,16 @@ footer {
 }
 
 .tertiary-color {
-    background-color: #010402;
+    background-color: #010402;    
+}
+
+.white-text {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
+}
+
+.black-text { 
+    color: black;
 }
 
 /* END THEME COLORS */
@@ -108,12 +101,12 @@ footer {
 /* EFFECTS */
 
 .large-text {
-    font-size: 1.2em;
+    font-size: 0.8em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
 }
 
 .medium-text {
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
 }
 
@@ -126,4 +119,59 @@ footer {
     -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
     box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+
+/* BOX SLIDER */
+
+#container {
+    overflow: hidden;  
+}
+
+.box {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    border: 2px solid black;
+    left: 50%;
+    top: 40%;
+    margin-left: -25%;
+}
+
+#box1 {    
+    left: -50%;
+}
+
+#box2 {    
+}
+
+#box3 {    
+    left: 150%;
+}
+
+#box4 {
+    left: 150%;
+}
+
+#box5 {
+    left: 150%;
+}
+
+/* RESPONSIVE RESIZE */
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+@media (max-width: 800px) {
+    .box {
+        top: 50%;
+        height: 100%;
+    }
+}
+@media (max-width: 400px) {
+    p {
+        font-size: 0.8em;
+    }
 }

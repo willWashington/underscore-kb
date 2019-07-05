@@ -7,7 +7,12 @@ colors look good
 need to figure out how I want
     to give the user the abilty
     to choose what they want to see
-    
+
+create dropdown for language
+once done, create js swapper script
+    to swap out the cards under
+    each language
+allow users to search inside languages
 
 
 css is too complicated - simplify
