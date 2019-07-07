@@ -14,3 +14,11 @@ adjust responsiveness - currently trash
 
 create dropdown for language
     --added languages to nav bar - drop down not successful yet
+
+    <!-- REMEMBER TO REMOVE TABS IN PRE/CODE ELEMENTS BECAUSE THE WHITE SPACE SHOWS UP IN THE CODE SECTION -->
+<pre><xmp class="prettyprint">
+<header class="foreground-color">
+    <h1 class="large-text">underscore_kb</h1>
+    <h2 class="medium-text">a knowledgebase for beginners.</h2>
+</header>
+</xmp></pre>
