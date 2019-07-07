@@ -1,0 +1,94 @@
+/* MAIN CONTROL */
+* {
+    box-sizing: border-box;
+}
+
+.page-container {
+    width: 100%;
+    height: 85%;
+    padding: 5px;
+    margin-top: 5px;
+    border: solid gray;
+}
+
+header {
+    padding: 5px;
+    text-align: center;        
+}
+
+.stitching {
+    margin: 1px;
+    border: white dashed;
+}
+
+/* NAV BAR */
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f1d1b5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
+}
+
+.topnav a:hover {
+    background-color: #ff8260;
+    color: #f1d1b5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
+}
+
+.topnav a.active {
+    background-color: #4bc3b5;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    height: 300px;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* END MAIN CONTROL */
+
+/* RESPONSIVE RESIZE */
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+@media (max-width: 800px) {
+    .box {
+        top: 50%;
+        height: 100%;
+    }
+}
+
+
+
+
+/* Unused But Saved For Reference */
+
+/* .folder-shadow {
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+} */

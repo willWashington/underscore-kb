@@ -1,0 +1,45 @@
+.background-color {
+    background-color: #fff;
+}
+
+.foreground-color {
+    background-color: steelblue;    
+}
+
+.secondary-color {
+    background-color: bisque;
+}
+
+.tertiary-color {
+    background-color: #010402;    
+}
+
+.white-text {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
+}
+
+.black-text { 
+    color: black;
+}
+
+/* DARK MODE */
+
+.background-color-dark {
+    background-color: #242424;
+}
+
+.foreground-color {
+    background-color: steelblue;    
+}
+
+.secondary-color {
+    background-color: bisque;
+}
+
+.tertiary-color {
+    background-color: #010402;    
+}
+
+
+
