@@ -7,7 +7,7 @@
 .box {
     position: absolute;
     width: 70%;
-    height: 40%;    
+    height: 50%;
     border: 2px solid black;
     left: 30%;
     top: 40%;
@@ -15,10 +15,11 @@
 }
 
 #box1 {    
-    left: -50%;
+    left: 30%;
 }
 
-#box2 {    
+#box2 {
+    left: -50%;
 }
 
 #box3 {    
@@ -32,3 +33,24 @@
 #box5 {
     left: 150%;
 }
+
+#box6 {
+    left: 150%;
+}
+
+#box7 {
+    left: 150%;
+}
+
+#box8 {
+    left: 150%;
+}
+
+#box9 {
+    left: 150%;
+}
+
+#box10 {
+    left: 150%;
+}
+

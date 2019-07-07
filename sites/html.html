@@ -22,6 +22,7 @@
     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
     <script src="../scripts/cardSlider.js" async defer></script>
     <script src="../scripts/generalScripts.js" async defer></script>
+    <link rel="stylesheet" href="../styles/prettify.css">
 </head>
 
 <body id="body" class="background-color">
@@ -33,50 +34,99 @@
             <div class="topnav tertiary-color">
                 <a href="../index.html">Home</a>
                 <a class="active" href="../sites/html.html">HTML</a>
-                <a href="#css">CSS</a>
-                <a href="#js">Javascript</a>
+                <a href="../sites/css.html">CSS</a>
+                <a href="../sites/js.html">Javascript</a>
             </div>
         </nav>
         <header class="foreground-color">
             <h1 class="large-text-white">underscore_kb</h1>
             <h2 class="medium-text-white">a knowledgebase for beginners.</h2>
+            <h3 class="small-text-white">html repository</h3>
         </header>
 
         <main>
             <section>
                 <!-- ADD BOXES BELOW -->
                 <div id="container">
-                    <article id="box1" class="box secondary-color">
-                        <h1 class="card-lead">Lorem Ipsum</h1>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+                <article id="box1" class="box secondary-color">
+                        <h1 class="card-lead">HTML</h1>
+                        <p>Welcome to the HTML section of _kb. Here you will find code snippets for various things you
+                            may want to achieve with HTML syntax. I will outline all of the elements of HTML and specify
+                            where they can and cannot be used, what they are used for, and various other things. I will
+                            include links to outside sources and tutorials that will help you better understand the tools
+                            at your disposal.                            
+                        </p>
+                        <p class="medium-text-black">As with all these pages, please click this card to begin.</p>
+                </article>
+
+                <article id="box2" class="box secondary-color">
+                        <h1 class="card-lead">HTML Editor</h1>
+                        <p>Personally, I really like VS Code for an HTML editor. I don't have much experience with other IDE's 
+                            I use VS Code for HTML, CSS, JS, and Java. It's great!
+                        </p>
+                        <p>One of the best things about VS Code for web development is Emmet.</p>
+                        <p>Emmet is a plugin that is installed natively in VS Code. It allows for easy access to
+                            code snippets for web development. Before this writing, I didn't know Emmet was a plugin;
+                            I thought it was part of VS Code.
+                        </p>
+                        <p>You can learn more about Emmet and see what it can do <a href="https://vscode.readthedocs.io/en/latest/editor/emmet/" target="_blank">here</a>.</p>                        
+                        <p><a href="https://docs.emmet.io/cheat-sheet/"> Here is a cheatsheet</a> for Emmet shortcuts within VS Code.</p>
+                </article>
+
+                <article id="box3" class="box secondary-color">
+                    <h1 class="card-lead">Layout</h1>
+                    <p>Now that you're set up with an IDE, let's talk about layouts. This writing assumes you have a basic
+                        understanding of how to create a website, so I'll skip a lot of the generics like creating your .html files and etc.                        
+                    </p>
+                    <p><a href="https://www.w3schools.com/html/html_layout.asp">This W3 Schools reference</a> is a good starting place for how lay out your website.
+                        I use the <a href="https://html5boilerplate.com/">HTML5 Boilerplate VS Code extension</a> to start my pages. It's an excellent starting point for any site.
+                    </p>
+                    <p>There are five different ways to create a layout for a website. They can all be found on the W3 Schools link above. The site explains it well and you should
+                        read it to get a better understanding. I am not experienced enough to explain them all properly. My HTML/CSS class in college just told me to read W3 pages anyway, so
+                        I'll do the same.
+                    </p>
+                </article>
+
+                <article id="box4" class="box secondary-color">
+                        <h1 class="card-lead">Elements 1 - Elements vs Tags</h1>
+                        <p>Now that you know a little about layouts, you can start to learn what elements make up a website. We'll start with the base elements that every
+                            website must have and grow from there.
+                        </p>
+                        <p class="medium-text-black">
+                            What is an element? Is an element a tag?
+                        </p>
+                        <p>An element is the entire statement. An opening tag, the internal items, and a closing tag makes up an element. This is a full element:</p>
+<xmp class="prettyprint lang-html">
+<h1 class="large-text">underscore_kb</h1>                               
+</xmp>
+                        <p>A tag is only the opening or closing section of an element. These are the tags in the above elements:</p>
+<xmp class="prettyprint lang-html">
+<h1>    
+</h1>                               
+
+</xmp>
                     </article>
 
 
-                    <article id="box2" class="box secondary-color">
-                            <h1 class="card-lead">Lorem Ipsum</h1>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-<!-- REMEMBER TO REMOVE TABS IN PRE/CODE ELEMENTS BECAUSE THE WHITE SPACE SHOWS UP IN THE CODE SECTION -->
-<pre><xmp class="prettyprint">
-<header class="foreground-color">
-    <h1 class="large-text">underscore_kb</h1>
-    <h2 class="medium-text">a knowledgebase for beginners.</h2>
-</header>
-</xmp></pre>
-                    </article>
 
                 </div>
             </section>
 
 
 
+
+            <!-- #box {
+                background-color: yellow;
+                width: 200px;
+                height: 100px;
+                padding: 20px;
+                border: 2px solid black;
+                margin: 10px auto 10px auto;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 100px;
+            } -->
 
         </main>
     </div>

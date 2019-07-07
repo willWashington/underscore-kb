@@ -22,3 +22,16 @@ create dropdown for language
     <h2 class="medium-text">a knowledgebase for beginners.</h2>
 </header>
 </xmp></pre>
+
+CSS centering element
+            <!-- #box {
+                background-color: yellow;
+                width: 200px;
+                height: 100px;
+                padding: 20px;
+                border: 2px solid black;
+                margin: 10px auto 10px auto;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 100px;
+            } -->
