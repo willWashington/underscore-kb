@@ -11,9 +11,22 @@ if screen is X small,
     change underscore_kb to 
     just say _kb via js
 adjust responsiveness - currently trash
+    adjusted responsiveness by removing position: absolute from the slider
+    this breaks the slider functionality
+    build a JS fade out or slider script that will swap cards based on an array of all the elements
+        on the page with a class of box
+
+
 
 create dropdown for language
     --added languages to nav bar - drop down not successful yet
+
+
+
+
+
+
+
 
     <!-- REMEMBER TO REMOVE TABS IN PRE/CODE ELEMENTS BECAUSE THE WHITE SPACE SHOWS UP IN THE CODE SECTION -->
 <pre><xmp class="prettyprint">

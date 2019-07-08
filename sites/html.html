@@ -49,7 +49,7 @@
                 <!-- ADD BOXES BELOW -->
                 <div id="container">
 
-                <article id="box1" class="box secondary-color">
+                <article class="box secondary-color">
                         <h1 class="card-lead">HTML</h1>
                         <p>Welcome to the HTML section of _kb. Here you will find code snippets for various things you
                             may want to achieve with HTML syntax. I will outline all of the elements of HTML and specify
@@ -60,7 +60,7 @@
                         <p class="medium-text-black">As with all these pages, please click this card to begin.</p>
                 </article>
 
-                <article id="box2" class="box secondary-color">
+                <article class="box secondary-color">
                         <h1 class="card-lead">HTML Editor</h1>
                         <p>Personally, I really like VS Code for an HTML editor. I don't have much experience with other IDE's 
                             I use VS Code for HTML, CSS, JS, and Java. It's great!
@@ -74,7 +74,7 @@
                         <p><a href="https://docs.emmet.io/cheat-sheet/"> Here is a cheatsheet</a> for Emmet shortcuts within VS Code.</p>
                 </article>
 
-                <article id="box3" class="box secondary-color">
+                <article class="box secondary-color">
                     <h1 class="card-lead">Layout</h1>
                     <p>Now that you're set up with an IDE, let's talk about layouts. This writing assumes you have a basic
                         understanding of how to create a website, so I'll skip a lot of the generics like creating your .html files and etc.                        
@@ -88,7 +88,7 @@
                     </p>
                 </article>
 
-                <article id="box4" class="box secondary-color">
+                <article class="box secondary-color">
                         <h1 class="card-lead">Elements 1 - Elements vs Tags</h1>
                         <p>Now that you know a little about layouts, you can start to learn what elements make up a website. We'll start with the base elements that every
                             website must have and grow from there.
@@ -107,7 +107,7 @@
 </xmp>
                     </article>
 
-                    <article id="box5" class="box secondary-color">
+                    <article class="box secondary-color">
                         <h1 class="card-lead">Elements 2 - Doctype</h1>
                         <p>The first element we need to discuss is the doctype element. But, this isn't actually an element.</p>
 <xmp class="prettyprint lang-html">
@@ -124,7 +124,7 @@
                         <p>Next up is the next most important element: the comment.</p>
                         </article>
 
-                        <article id="box6" class="box secondary-color">
+                        <article class="box secondary-color">
                             <h1 class="card-lead">Elements 3 - The Comment</h1>
                             <p>The comment element is used to document code. It is completely ignored when the browser processes the document.</p>
 <xmp class="prettyprint lang-html">
@@ -134,11 +134,25 @@
                                 comment. Developers use comments to explain code. They are often used to keep up with what a developer was working on when they had
                             to step away.                         
                             </p>
+                            <p>Comments are useful when debugging code. Commenting out a piece of code can help you understand exactly what that piece of code is doing.
+                                For instance, if you have a paragraph element that has a larger font size than you'd expect, you can comment out all of the CSS that is changing font
+                                size one by one until you figure out which is causing the change.
+                            </p>
 
                             <p>The only other thing you need to know about commenting is that you can use it to to hide scripts from browsers without support for scripts.
-                                    
-
+                                I was not aware of this prior to this writing. You can use the comment tag to "hide" script syntax from the browser in case the browser 
+                                doesn't have the ability to process the script. This is shown below.
                             </p>
+<xmp class="prettyprint lang-html">
+    <script type="text/javascript">
+        <!--
+        function displayMsg() {
+          alert("Hello World!")
+        }
+        //-->
+        </script> 
+</xmp>
+
 
                             <p>Next up is the next most important element: the comment.</p>
                         </article>
