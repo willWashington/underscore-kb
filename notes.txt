@@ -22,6 +22,9 @@ Add Swap Pause:
 Make Sure Links Open New Tab:
     just as it says
 
+Add README.md for Github:
+    just as it says
+
 --:DONE: 
 layout looks good
 header bar looks good
