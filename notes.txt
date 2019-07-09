@@ -1,6 +1,8 @@
-TODO: 
+--:TODO: 
 Light Mode
 Dark Mode
+
+Adjust Page Header:
 if screen is X small, 
     change underscore_kb to 
     just say _kb via js
@@ -13,7 +15,14 @@ Add Card Counter:
     add card counter to the right hand side of the card header as a 
         new header to give better flow to cardSwapper.js functionality.
 
-DONE: 
+Add Swap Pause:
+    create a button that allows the user to pause the swap functionality so
+        they can copy and paste from the card or click links without swapping cards
+
+Make Sure Links Open New Tab:
+    just as it says
+
+--:DONE: 
 layout looks good
 header bar looks good
 nav bar looks good - maybe adjust colors
