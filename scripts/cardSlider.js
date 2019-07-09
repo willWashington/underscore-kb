@@ -1,60 +1,17 @@
-var allBoxes = $(".box");
-let counter = 0;
+var allBoxes = $(".box"); //get all the boxes on the page
 
-allBoxes.each(function( index ) {
-    if (this.id != "active-card") {
-        $(this).hide();
+allBoxes.each(function( index ) { //foreach box in the allBoxes array
+    if (this.id != "active-card") { //if the box is not the active card
+        $(this).hide(); //hide the box
     }
   });
 
-  $('.box').click(function() {
-    $( "#active-card" ).hide("fast");
-    $( "#active-card" ).remove();
-    counter++;
-    if (counter == allBoxes.length) {
-        counter = 0;
-        console.log(counter);
+  $('.box').click(function() { //when the user clicks a box
+    $(this).hide("fast"); //hide the visible box
+    var index = $(this).index() + 1; //get the index of the next box
+    if (index != allBoxes.length) { //if the index of the next box is not equal to the length of the array of boxes
+        $(this).next().show("fast"); //show the box
+    } else { 
+        $('.box:first').show("fast"); //show the first box in the list of boxes
     }
-    var newActive = $( allBoxes ).get( counter );
-    newActive.id = "active-card";
-    $( "#active-card" ).show("fast");
-    console.log($(newActive).is(":visible")); 
   })
-  //this is working but when it should show the first element again, it doesn't show anything at all.
-  //the log here shows that the first element (the reset in the loop) is not visible - the code is not working on the iteration
-
-  
-
-//get all boxes - x
-//if a box is clicked on, slide it off screen and hide it
-//count how many boxes have been clicked on
-//show, slide in, and display the box that is next in line
-
-
-
-
-// $('.box').click(function() {
-//     $('.box').each( function() {
-//         if ($(this).offset().left < 0) {            
-//             $(this).css("left", "150%");
-//         }
-//     });
-
-//     //off-screen speed controller
-//     $(this).animate({
-//          left: '-50%'
-//      }, 500);
- 
-
-//      if ($(this).next().length > 0) {
-//          $(this).next().animate({
-//              left: '30%'
-//          }, 500);
-//      } else {
-//          $(this).prevAll().last().animate({
-//              left: '30%'
-//          }, 500);
-//      }
-// });
-
-
