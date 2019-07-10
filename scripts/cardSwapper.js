@@ -7,11 +7,11 @@ allBoxes.each(function( index ) { //foreach box in the allBoxes array
   });
 
   $('.box').click(function() { //when the user clicks a box
-    $(this).hide("fast"); //hide the visible box
+    $(this).hide("slow"); //hide the visible box
     var index = $(this).index() + 1; //get the index of the next box
     if (index != allBoxes.length) { //if the index of the next box is not equal to the length of the array of boxes
-        $(this).next().show("fast"); //show the box
+        $(this).next().show("slow"); //show the box
     } else { 
-        $('.box:first').show("fast"); //show the first box in the list of boxes
+        $('.box:first').show("slow"); //show the first box in the list of boxes
     }
   })
