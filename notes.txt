@@ -38,6 +38,21 @@ adjust responsiveness - currently trash
 
 
 
+                        <article class="box secondary-color">
+                            <h1 class="card-lead">Elements 4 - The HTML Tag</h1>
+                            <p>
+
+<xmp class="prettyprint lang-html">
+    <!DOCTYPE html>
+    <html>
+        ...other elements...    
+    </html>
+
+</xmp>  
+                            </p>
+
+                        </article>
+
 
 forLater:
 
