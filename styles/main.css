@@ -11,6 +11,19 @@
     border: solid gray;
 }
 
+#next-card {
+    float: right;
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;   
+}
+
 header {
     padding: 5px;
     text-align: center;        
@@ -22,7 +35,7 @@ header {
 }
 
 /* NAV BAR */
-.topnav {
+/* .topnav {
     overflow: hidden;
 }
 
@@ -46,6 +59,32 @@ header {
     background-color: #4bc3b5;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
+} */
+
+.topnav a {    
+    margin-top: 5px;
+    border: none;
+    background: black;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: capitalize;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.topnav a:hover {
+    color: #ff8260 !important;
+    font-weight: 700 !important;
+    background: transparent;
+    letter-spacing: 3px;        
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
 }
 
 /* Container for flexboxes */
@@ -64,6 +103,33 @@ article {
     padding: 10px;
     -webkit-box-shadow: 3px 1px 11px 2px rgba(0,0,0,0.37); 
     box-shadow: 3px 1px 11px 2px rgba(0,0,0,0.37);
+}
+
+.myButton {
+    margin-top: 5px;
+    margin-left: 25px;
+    border: none;
+    background: black;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.myButton:hover {
+    color: #ff8260 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: #222;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
 }
 
 /* END MAIN CONTROL */

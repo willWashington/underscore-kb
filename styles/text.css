@@ -53,6 +53,14 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 
+.roboto {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
 .card-lead {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
