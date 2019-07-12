@@ -13,8 +13,8 @@ $('.swap-card').click(function() {
     $('.box').hide("slow");    
     if (counter != allBoxes.length) {
         var next = allBoxes[counter];
-        $(next).show('slow');        
-        counter++;        
+        $(next).show('slow');
+        counter++;
         //not working right - text changes before the card is swapped which breaks immersion - need to figure out how to delay this text change
     } else {
         $('.box:first').show('slow');
