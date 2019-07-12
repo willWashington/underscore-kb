@@ -1,5 +1,6 @@
 .background-color {
     background-color: #fff;
+    transition: all .3s linear 0s;
 }
 
 .foreground-color {
@@ -19,6 +20,16 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
 }
 
+.border-gray {
+    border: solid #696969;
+    transition: all .3s linear 0s;
+}
+
+.border-white {
+    border: solid #fff;
+    transition: all .3s linear 0s;
+}
+
 .black-text { 
     color: black;
 }
@@ -26,7 +37,8 @@
 /* DARK MODE */
 
 .background-color-dark {
-    background-color: #242424;
+    background-color: #696969;
+    transition: all .3s linear 0s;
 }
 
 .foreground-color {

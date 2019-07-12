@@ -7,59 +7,16 @@
     width: 100%;
     height: 85%;
     padding: 5px;
-    margin-top: 5px;
-    border: solid gray;
-}
-
-#next-card {
-    float: right;
-    background-color: yellow;
-    width: 200px;
-    height: 100px;
-    padding: 20px;
-    border: 2px solid black;
-    margin: 10px auto 10px auto;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 100px;   
+    margin-top: 5px;    
 }
 
 header {
     padding: 5px;
-    text-align: center;        
-}
-
-.stitching {
-    margin: 1px;
-    border: white dashed;
+    text-align: center;
+    border: 2px solid black        
 }
 
 /* NAV BAR */
-/* .topnav {
-    overflow: hidden;
-}
-
-.topnav a {
-    float: left;
-    color: #f1d1b5;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
-}
-
-.topnav a:hover {
-    background-color: #ff8260;
-    color: #f1d1b5;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
-}
-
-.topnav a.active {
-    background-color: #4bc3b5;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86);
-} */
 
 .topnav a {    
     margin-top: 5px;
@@ -105,7 +62,7 @@ article {
     box-shadow: 3px 1px 11px 2px rgba(0,0,0,0.37);
 }
 
-.myButton {
+.btn {
     margin-top: 5px;
     margin-left: 25px;
     border: none;
@@ -121,7 +78,7 @@ article {
     transition: all 0.3s ease 0s;
 }
 
-.myButton:hover {
+.btn:hover {
     color: #ff8260 !important;
     font-weight: 700 !important;
     letter-spacing: 3px;
@@ -130,6 +87,13 @@ article {
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.3s ease 0s;
+}
+
+.light-text {
+    content: "Light Mode";
+}
+.dark-text {
+    content: "Dark Mode";
 }
 
 /* END MAIN CONTROL */
