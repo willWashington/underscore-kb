@@ -1,11 +1,7 @@
 --:NIGHTS NOTES:
-Adjusted generalScripts.js to fix text in Dark Mode/Light Mode button not swapping.
 
-Created search.js.
 
-Created search.html.
-
-Cleaned up and organized main.css
+Updated notes.
 
 
 
