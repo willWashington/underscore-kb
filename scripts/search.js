@@ -10,13 +10,13 @@ $(document).keyup(function(event) {
         var text = $('.search').val(); //declare variable that contains the search string
         $( "#testDivIndex" ).load( "https://willwashington.github.io/underscore-kb/index.html article", function() {
             //^ get the article elements from the html.html site and load them in to the #testDiv element
-            $('.box').hide(); //hide all of the boxes        
+            $('.box').hide(); //hide all of the boxes
             $('.box:containsInsensitive("'+text+'")').show(); //show all the boxes that contains the search string    
         } );
 
         $( "#testDivHtml" ).load( "https://willwashington.github.io/underscore-kb/sites/html.html article", function() {
             //^ get the article elements from the html.html site and load them in to the #testDiv element
-            $('.box').hide(); //hide all of the boxes        
+            $('.box').hide(); //hide all of the boxes
             $('.box:containsInsensitive("'+text+'")').show(); //show all the boxes that contains the search string    
         } );
 
@@ -33,6 +33,8 @@ $(document).keyup(function(event) {
         } );
     }
 });
+
+
 
 
 
