@@ -11,25 +11,25 @@ $(document).keyup(function(event) {
         $( "#testDivIndex" ).load( "https://willwashington.github.io/underscore-kb/index.html article", function() {
             //^ get the article elements from the html.html site and load them in to the #testDiv element
             $('.box').hide(); //hide all of the boxes
-            $('.box:containsInsensitive("'+text+'")').show(); //show all the boxes that contains the search string    
+            $('.box:containsInsensitive("'+text+'")').show('slow'); //show all the boxes that contains the search string    
         } );
 
         $( "#testDivHtml" ).load( "https://willwashington.github.io/underscore-kb/sites/html.html article", function() {
             //^ get the article elements from the html.html site and load them in to the #testDiv element
             $('.box').hide(); //hide all of the boxes
-            $('.box:containsInsensitive("'+text+'")').show(); //show all the boxes that contains the search string    
+            $('.box:containsInsensitive("'+text+'")').show('slow'); //show all the boxes that contains the search string    
         } );
 
         $( "#testDivCSS" ).load( "https://willwashington.github.io/underscore-kb/sites/css.html article", function() {
             //^ get the article elements from the html.html site and load them in to the #testDiv element
             $('.box').hide(); //hide all of the boxes        
-            $('.box:containsInsensitive("'+text+'")').show(); //show all the boxes that contains the search string    
+            $('.box:containsInsensitive("'+text+'")').show('slow'); //show all the boxes that contains the search string    
         } );
 
         $( "#testDivJS" ).load( "https://willwashington.github.io/underscore-kb/sites/js.html article", function() {
             //^ get the article elements from the html.html site and load them in to the #testDiv element
             $('.box').hide(); //hide all of the boxes        
-            $('.box:containsInsensitive("'+text+'")').show(); //show all the boxes that contains the search string    
+            $('.box:containsInsensitive("'+text+'")').show('slow'); //show all the boxes that contains the search string    
         } );
     }
 });
