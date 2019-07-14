@@ -7,6 +7,15 @@ Updated notes.
 
 
 --:TODO: 
+
+Remove filler from _kb.
+    the website should only focus on syntax
+    bad.tuts is for how to's and what to use so remove vs code stuff etc and put it in bad.tuts
+    
+the idea is for bad.tuts to teach you HOW to use things while _kb teaches you the things you CAN USE
+
+
+
 Light Mode
 Dark Mode
 
