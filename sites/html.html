@@ -407,10 +407,56 @@
                     <article class="box secondary-color">
                             <h1 class="card-lead">Elements 9 - The Link Element</h1>
                             <h1 class="card-number">14</h1>
-
+                            
                             <p>
 
                             </p>
+                            </article>
+                    
+                                        <article class="box secondary-color">
+                            <h1 class="card-lead">Elements 9 - The Link Tag</h1>
+                            <h1 class="card-number">14</h1>
+                                
+                            <p>First of all, I should make sure you note that this card is named "link tag" not "link element". The reason for this is because the link tag
+                                does not have a close. Or, rather, the link tag is self-closing.                             
+                            </p>
+
+                            <p>The next card will cover all of the self closing tags and how that works in depth, so let's back up to the link tag for a moment.
+                            </p>
+
+                            <p>The link tag is another tag that must be placed within the head tag. The link tag is responsible for linking to an internal or external document that
+                                your document relies on. This practice commonly links an HTML document to a CSS or JS document. An internal link reference points to a 
+                                document that is internal to your project. This would be if the CSS file for your website was in the same directory as your HTML document.                                
+                            </p>
+                            <p>For instance, let's assume your HTML document named "website.html" was located in the "Test" folder on your C: drive. The path to your HTML document would be:
+                                "C:\Test\website.html". If you had a stylesheet (CSS document) named "style.css" in a folder called CSS that is inside the Test folder, the path to your stylesheet would be:
+                                "C:\Test\CSS\style.css". You can link to this stylesheet with the link tag within the head element of your website.html file like this:
+                            </p>
+<xmp class="prettyprint lang-css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</xmp>
+                            <p>This will link the style.css stylesheet to your HTML document for processing by the browser. Whatever CSS syntax in the styles.css document will be
+                                processed by the browser and applied to your website.html document on load.
+                            </p>
+
+                            <p>You can reference external stylesheets the same way by just replacing the href attribute of the style tag with the URL for the stylesheet like so:
+                            </p>
+<xmp class="prettyprint lang-css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</xmp>
+                            <p>The syntax above will pull in the Boostrap external stylesheet for your website.<br> This syntax has been simplified from the suggested syntax from the 
+                                <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">bootstrap website</a>.
+                            </p>
+
+                            <p>The concept seems difficult, but it really isn't. For you, all you need to know is:<br>
+                            If you need to use a stylesheet that you created and put in a folder on your computer, use the first syntax example listed here.<br>
+                            If you need to use an external stylesheet, get the URL for that stylesheet and replace the href attribute of the link tag with that URL as shown
+                            in the second example.
+                            </p>
+
+                            <p>You can read more about the link tag <a href="https://www.w3schools.com/tags/tag_link.asp">here</a>.</p>
+
+                    
                             </article>
 
 
