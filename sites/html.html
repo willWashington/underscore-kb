@@ -144,7 +144,7 @@
                             document it is reading.
                         </p>
                         <p>You can read more about the doctype declaration <a
-                                href="https://www.w3schools.com/tags/tag_doctype.asp" target="_blank"> here</a>.
+                                href="https://www.w3schools.com/elements/element_doctype.asp" target="_blank"> here</a>.
                             If you are using XHTML, you must declare a proper doctype declaration to instruct the
                             browser of the special intention.
                             For most websites, unless you plan on using XHTML specifically, you are free to use the html
@@ -161,7 +161,7 @@
     <!--This is a comment.-->
 
 </xmp>
-                        <p>This tag is used to add a comment to the source code. The browser processing the document
+                        <p>This element is used to add a comment to the source code. The browser processing the document
                             will completely ignore the
                             comment. Developers use comments to explain code. They are often used to keep up with what a
                             developer was working on when they had
@@ -176,7 +176,7 @@
 
                         <p>The only other thing you need to know about commenting is that you can use it to to hide
                             scripts from browsers without support for scripts.
-                            I was not aware of this prior to this writing. You can use the comment tag to "hide" script
+                            I was not aware of this prior to this writing. You can use the comment element to "hide" script
                             syntax from the browser in case the browser
                             doesn't have the ability to process the script. This is shown below.
                         </p>
@@ -193,14 +193,14 @@
                     </article>
 <!-- CARD 7 -->
                     <article class="box secondary-color">
-                        <h1 class="card-lead">Elements 4 - The HTML Tag</h1>
+                        <h1 class="card-lead">Elements 4 - The HTML Element</h1>
                         <h1 class="card-number">7</h1>
-                        <p><a href="https://www.w3schools.com/tags/tag_html.asp" target="_blank">The HTML tag</a> is
+                        <p><a href="https://www.w3schools.com/elements/element_html.asp" target="_blank">The HTML element</a> is
                             pretty clear cut. It tells the browser that the document is an
                             HTML document. It represents the root of an HTML document. This means that it is the
                             beginning of the document. It should wrap all the other elements on
                             your website except the DOCTYPE declaration.
-                            The HTML tag should always follow the DOCTYPE declaration like this:
+                            The HTML element should always follow the DOCTYPE declaration like this:
 <xmp class="prettyprint lang-html">
     <!DOCTYPE html>
     <html>
@@ -211,29 +211,29 @@
 </xmp>
                         </p>
                         <p>
-                            Any div, p, or span tags, and all other tags,
-                            should be inside the html tag. The only exception to this rule is the DOCTYPE declaration.
-                            It will always be outside the html tag, as shown above.
+                            Any div, p, or span elements, and all other elements,
+                            should be inside the html element. The only exception to this rule is the DOCTYPE declaration.
+                            It will always be outside the html element, as shown above.
                         </p>
 
-                        <p>The html tag is also used for XHTML. I don't fully understand this, so I won't pretend to
+                        <p>The html element is also used for XHTML. I don't fully understand this, so I won't pretend to
                             here for now. You can read more about it
-                            <a href="https://www.w3schools.com/tags/att_html_xmlns.asp" target="_blank">here</a> if
+                            <a href="https://www.w3schools.com/elements/att_html_xmlns.asp" target="_blank">here</a> if
                             you're into XHTML. Yes. This is a cop out. I'm hoping to be able to
                             tell you more about XHTML one day.
                         </p>
 
                         <p>
-                            The html tag can be styled with CSS. It may feel tempting to assign a background color to
-                            the html tag with CSS, but this isn't a good idea.
+                            The html element can be styled with CSS. It may feel tempting to assign a background color to
+                            the html element with CSS, but this isn't a good idea.
                             My mentors and the tutorials I've watched say this is a common rookie mistake. You often
                             don't want your entire document to have a background color, but
-                            rather you want to build an element inside the HTML tag that represents the background. More
+                            rather you want to build an element inside the HTML element that represents the background. More
                             on this later.
                         </p>
 
                         <p>
-                            For now, all you really need to know is that browsers have default styles for the html tag
+                            For now, all you really need to know is that browsers have default styles for the html element
                             that may cause things to not work the way you expect them to.
                             You can reset these styles in your CSS document. This topic is better suited for the CSS
                             page, so I'm going to leave it at that.
@@ -241,7 +241,7 @@
                     </article>
 <!-- CARD 8 -->
                     <article class="box secondary-color">
-                        <h1 class="card-lead">Elements 5 - The Head Tag</h1>
+                        <h1 class="card-lead">Elements 5 - The Head Element</h1>
                         <h1 class="card-number">8</h1>
                         <p>
                             The Head element is a container for elements that must go inside the head.
@@ -262,21 +262,21 @@
                             The head element was required in HTML 4.01, but in HTML5 it can be left out. For the most
                             part, all you need to know is that you put
                             the above elements inside the head element. You will almost definitely do this with the link
-                            and style tags. Title is required and must be in the
-                            head tag, so you'll definitely do that.
+                            and style elements. Title is required and must be in the
+                            head element, so you'll definitely do that.
 
                         </p>
 
                     </article>
 <!-- CARD 9 -->
                     <article class="box secondary-color">
-                        <h1 class="card-lead">Elements 6 - The Body Tag</h1>
+                        <h1 class="card-lead">Elements 6 - The Body Element</h1>
                         <h1 class="card-number">9</h1>
-                        <p>The body tag encapsulates all of the display elements of the website. All of your images,
+                        <p>The body element encapsulates all of the display elements of the website. All of your images,
                             links, paragraphs, articles, navigation buttons, etc will be
                             inside the body element.
                         </p>
-                        <p>The default CSS for most browsers for the body tag is:
+                        <p>The default CSS for most browsers for the body element is:
 <xmp class="prettyprint lang-css">
     body {
     display: block;
@@ -324,6 +324,96 @@
                         </p>
                     
                     </article>
+
+                    <article class="box secondary-color">
+                            <h1 class="card-lead">Global Attributes</h1>
+                            <h1 class="card-number">11</h1>
+                            <p>Now that we've discussed the DOM, we should touch on Global Attributes.</p>
+
+                            <p>Global Attributes are an important part of web development. Arguably, CSS would not work well at all without these attributes.</p>
+
+                            <p>That is mostly because the "class" attribute is part of global attributes. In CSS, when a developer wants to assign styling to all elements in a single group,
+                                the developer will assign a class to each of those elements. The class Global Attribute can then be referenced from a CSS sheet and all elements with
+                                that class will be changed by the styling.
+                            </p>
+
+                            <p>There are a lot of Global Attributes. I won't outline them all here, but you can go over the list for yourself at the <a href="https://www.w3schools.com/elements/ref_standardattributes.asp">w3schools website</a>.</p>
+
+                            <p>Onward!</p>
+                    </article>
+
+                    <!-- PUT EVENT ATTRIBUTES HERE https://www.w3schools.com/tags/ref_eventattributes.asp -->
+
+                    <article class="box secondary-color">
+                        <h1 class="card-lead">Elements 7 - The Title Element</h1>
+                        <h1 class="card-number">12</h1>
+
+                        <p>The next few elements are all elements that should be placed inside the head element most of the time. Some of these elements are exceptions. I'll highlight them.</p>
+                        <p>The title element defines the title of the website. Whatever you put in this element will display on the tab of the page in the browser. For instance, if you look at 
+                            the tab for this page, it should say "_kb - HTML". That is because I set my title element to say exactly that.
+                        </p>                        
+                        <p>The title element must go inside the head element.</p>
+
+                        <p>The title element is required for all websites as of this writing. It is written as so:
+<xmp class="prettyprint lang-css">
+    <title>This is the title.</title>
+</xmp>
+                        </p>
+
+                        <p>The title element contributes to SEO, as well. It will show up in search engine results. The title also shows up in the favorites section for users who bookmark
+                            the page. 
+                        </p>
+
+                        <p>You cannot have more than one title element in an HTML document, and if you omit the title element, a site will not work.</p>
+                    </article>
+
+                    <article class="box secondary-color">
+                            <h1 class="card-lead">Elements 8 - The Style Element</h1>
+                            <h1 class="card-number">13</h1>
+                            <p>The style element is one of the few elements that generally go inside the head element, but doesn't always have to. The style element 
+                                is used to define CSS from within an HTML document. A developer can also use the style element for what is called "inline style". 
+                                All this means is that you can use the style element inside the body of your document as well.
+                            </p>
+
+                            <p class="medium-text-black">What you must know: </p>
+                            <p>The style element defines styling from within an HTML document.<br>
+                                Multiple style elements can exist within a single HTML document.<br>
+                                The style element supports Global Attributes as well as Event Attributes.
+                            </p>
+                            
+
+                            <p>Those of you who went through the list of Global Attributes probably noticed the style attribute listed there. The attribute is not exactly the same
+                                as the element. The style attribute can be used like the class attribute in the declaration of an element like so:
+                            </p>
+
+<xmp class="prettyprint lang-css">
+    <p style="border: 1px solid red;">This is a paragraph.</p>
+</xmp>
+
+                            <p>In this instance, the paragraph element will be bordered by a solid red border that is 1px wide. This process is called inline styling.</p>
+
+                            <p>Most experienced developers rarely rely on inline styling. This touches on a common programming concept called encapsulation. The idea is to
+                                have all of your syntax regarding a certain topic in a specific location. A developer would much rather have style syntax in a style sheet so
+                                that if a change is needed, the change can be made in a single place, rather than in multiple places on multiple documents.
+                            </p>
+
+                            <p>Those of you familiar with the military or government work call this separation of duties. The ideas are all the same. One person, one job. One
+                                document, one job. The HTML document should contain the HTML. The CSS document should contain the CSS. And the Javascript document should contain
+                                the Javascript. Writing code inline detracts from this goal, and is commonly considered bad practice.
+                            </p>
+
+                    </article>
+
+                    <article class="box secondary-color">
+                            <h1 class="card-lead">Elements 9 - The Link Element</h1>
+                            <h1 class="card-number">14</h1>
+
+                            <p>
+
+                            </p>
+
+
+                    
                 </div>
             </section>
 
