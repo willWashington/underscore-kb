@@ -289,6 +289,8 @@
 </xmp>
                         </p>
 
+                        <p>You can read all about the head element and what elements go in it <a href="https://www.w3schools.com/html/html_head.asp">here</a>.</p>
+
 
                     </article>
 <!-- CARD 10 -->
@@ -420,19 +422,10 @@
                             </p>
 
                     </article>
-
-                    <article class="box secondary-color">
-                            <h1 class="card-lead">Elements 9 - The Link Element</h1>
-                            <h1 class="card-number">15</h1>
-                            
-                            <p>
-
-                            </p>
-                            </article>
                     
-                                        <article class="box secondary-color">
+                        <article class="box secondary-color">
                             <h1 class="card-lead">Elements 9 - The Link Tag</h1>
-                            <h1 class="card-number">16</h1>
+                            <h1 class="card-number">15</h1>
                                 
                             <p>First of all, I should make sure you note that this card is named "link tag" not "link element". The reason for this is because the link tag
                                 does not have a close. Or, rather, the link tag is self-closing.                             
@@ -459,7 +452,7 @@
                             <p>You can reference external stylesheets the same way by just replacing the href attribute of the style tag with the URL for the stylesheet like so:
                             </p>
 <xmp class="prettyprint lang-css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </xmp>
                             <p>The syntax above will pull in the Boostrap external stylesheet for your website.<br> This syntax has been simplified from the suggested syntax from the 
                                 <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">bootstrap website</a>.
@@ -487,10 +480,106 @@
                                 <p>For our purposes, all you need to understand is that the meta tag is exactly what the definition says: data about your data. Things such as 
                                     the page description, keywords that are associated with the page, and who the author is are stored within meta tags. <a href="https://www.w3schools.com/tags/tag_meta.asp">
                                     The w3schools page</a> for the meta tag lays this out well.
-                                </p>                                
+                                </p>                                 
+                                <p>The other thing to know about the meta tag is that it is used to declare the character encoding for the website. This syntax is as follows:
+<xmp>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+</xmp>
+                                It is interesting that when I put the above syntax into my VS Code, it looks like a rocket. You're welcome.
+                                </p> 
+
+                                <p>You can read more about character encoding <a href="https://www.w3schools.com/tags/att_meta_charset.asp">here</a>.
+                                </p>                            
                             </article>
-<!-- ADD INFORMATION about UTF-8 in the meta tag - did not cover this... -->
-                    
+
+                            <article class="box secondary-color">
+
+                                <h1 class="card-lead">Elements 11 - The Script Element</h1>
+                                <h1 class="card-number">17</h1>
+                                <p>The script element has multiple uses in a website. You will most likely end up using it primarily to link external script files like this:
+<xmp class="prettyprint lang-html">
+    <script src="../scripts/generalScripts.js"></script>
+</xmp>
+                                </p>
+
+                                <p>This functionality allows the developer to encapsulate the HTML document from scripts. Rather than putting your script within the script element
+                                    in your HTML document, you can link to an external script document. The HTML syntax is then aware of any functions within that script document.
+                                </p>
+
+                                <p>This isn't the only usage for this element, though. You can also use the script element inline within your HTML document to execute Javascript
+                                    without referencing an external script document. This should only be used sparingly, however. Developing in this manner decreases code reuse and 
+                                    introduces more complexity. Both of these things are frowned upon in the development community. If you need a simple script to make a simple change,
+                                    you can use the script element inline, but, for the most part, you should only use it to reference an external document.
+                                </p>
+
+                                <p class="medium-text-black"> What you need to know:
+                                    The script element references external script documents; this is normally Javascript files.<br>
+                                    Much like the style element, the script element allows you to write syntax inline within your HTML document.<br>
+                                    Most of the time, you will use this element to reference an external document to decrease complexity in your codebase.
+                                </p>
+                                <p>
+                                You can read more about the script element <a href="https://www.w3schools.com/tags/tag_script.asp">here</a>.
+                                </p>
+                            </article>
+
+                            <article class="box secondary-color">
+                            <h1 class="card-lead">Elements 12 - The Base Element</h1>
+                            <h1 class="card-number">18</h1>
+                            <p> Admittedly, I didn't know this element existed until this writing, so I'm not the greatest source of knowledge on the topic. That means you're
+                                going to get a link bomb somewhere in this card. Hope that's okay with you.
+
+<xmp class="prettyprint lang-html">
+    <head>
+        <base href="kb.badtuts.com" target="_blank">
+    </head>
+</xmp>
+                            </p>
+                            <p>After a little studying, this element is actually really cool!</p>
+<xmp>
+<head>
+    <base href="https://www.quackit.com/javascript/" target="_blank">
+</head>
+<body>
+    <p>Learn about <a href="javascript_arrays.cfm">JavaScript Arrays</a></p>
+</body>
+</xmp>
+
+                            <p>Hopefully the above syntax will help you understand. Basically, you use the base tag as a starting reference for all your anchor tags. We haven't 
+                                went over anchor tags yet. In short, anchor tags are all the links you see on a website. You've seen plenty of them in this KB. They are the blue underlined
+                                text you can click on to go to another website. You know, links.
+                            </p>
+
+                            <p>Here is the anchor tag for your reference:</p>
+<xmp>
+    <a href="kb.badtuts.com">Visit Underscore KB!</a>
+</xmp>                            
+                            <p>The result of this syntax will be: <br>
+                                <a href="kb.badtuts.com">Visit Underscore KB!</a>
+                            </p>
+                            
+                            <p>The way this works is you declare a base tag to reference whatever website you're going to repeatedly link to. Then in the anchor tag you reference a 
+                                specific page of that global site. There are multiple websites in _kb like the Home page (index.html), the Javascript section (js.html), or the CSS
+                                section (css.html). I can set my base to be "kb.badtuts.com" and then if I wanted to link you to the Javascript section I could do the following:
+                            </p>
+<xmp>
+    <a href="js.html">The Javascript Section</a>
+</xmp>
+                            <p>Assuming I understand this correctly, this syntax would link you directly to "kb.badtuts.com/js.html".
+                                You may be asking yourself what the point of this is, but consider for a moment a website with a ton of links that all point to various pages on a single
+                                site. You can imagine how much easier it would be to just be able to reference those specific documents without having to add the URL for the page to 
+                                every anchor tag your add.
+                            </p>
+                            <p class="medium-text-black"> What you need to know:<br>
+                                The base element allows you define a default link for all of your anchor tags.<br>
+                                The base element is not required, but can be very useful.<br>                            
+                            </p>
+                            <p>
+                                    <a href="https://www.quackit.com/html_5/tags/html_base_tag.cfm">This website</a> was very helpful in understanding the base element.<br>
+                                    <a href="https://www.w3schools.com/tags/tag_base.asp">Here</a> is the w3schools reference for the base element.
+                            </p>
+                            </article>
                 </div>
             </section>
 

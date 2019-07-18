@@ -56,20 +56,23 @@ adjust responsiveness - currently trash
 
 
                         <article class="box secondary-color">
-                            <h1 class="card-lead">Elements 4 - The HTML Tag</h1>
-                            <p>
+                            <h1 class="card-lead">Header</h1>
+                            <p> talk about element
 
 <xmp class="prettyprint lang-html">
-    <!DOCTYPE html>
-    <html>
-        ...other elements...    
-    </html>
-
+    <!-- add code sample here -->
 </xmp>  
                             </p>
+                            <p class="medium-text-black"> What you need to know:
 
+                            </p>
+                            <a href=""> add a link </a>
                         </article>
 
+
+Helpful Links:
+https://github.com/30-seconds/30-seconds-of-code/tree/master/vscode_snippets
+Snippets.json: C:\Users\NEO\AppData\Roaming\Code\User\snippets
 
 forLater:
 
