@@ -8,16 +8,17 @@ Updated notes.
 
 --:TODO: 
 
+Build an outline from https://www.w3schools.com/tags/.
+Restructure cards website to fit outline built in order from above site.
+
+
 Remove filler from _kb.
     the website should only focus on syntax
     bad.tuts is for how to's and what to use so remove vs code stuff etc and put it in bad.tuts
     
 the idea is for bad.tuts to teach you HOW to use things while _kb teaches you the things you CAN USE
 
-
-
-Light Mode
-Dark Mode
+Add new CSS class for "What you need to know" section so that the what you need to know sentence is easily recognizable in the card.
 
 Adjust Page Header:
 if screen is X small, 
@@ -46,6 +47,10 @@ Add README.md for Github:
 layout looks good
 header bar looks good
 nav bar looks good - maybe adjust colors
+Light Mode
+Dark Mode
+Remove any counting in the cards to accomodate possible later adjustments.
+
 
 adjust responsiveness - currently trash
     adjusted responsiveness by removing position: absolute from the slider
