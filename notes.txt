@@ -5,6 +5,8 @@ Updated notes.
 
 
 --:TODO: 
+    Update custom Emmet article to add comment.
+
     Build an outline from https://www.w3schools.com/tags/.
     Restructure cards website to fit outline built in order from above site.
 
