@@ -4,53 +4,48 @@
 Updated notes.
 
 
-
-
 --:TODO: 
+    Build an outline from https://www.w3schools.com/tags/.
+    Restructure cards website to fit outline built in order from above site.
 
-Build an outline from https://www.w3schools.com/tags/.
-Restructure cards website to fit outline built in order from above site.
+    Remove filler from _kb.
+        the website should only focus on syntax
+        bad.tuts is for how to's and what to use so remove vs code stuff etc and put it in bad.tuts
+        
+    the idea is for bad.tuts to teach you HOW to use things while _kb teaches you the things you CAN USE
 
+    Add new CSS class for "What you need to know" section so that the what you need to know sentence is easily recognizable in the card.
 
-Remove filler from _kb.
-    the website should only focus on syntax
-    bad.tuts is for how to's and what to use so remove vs code stuff etc and put it in bad.tuts
-    
-the idea is for bad.tuts to teach you HOW to use things while _kb teaches you the things you CAN USE
+    Adjust Page Header:
+        if screen is X small, 
+            change underscore_kb to 
+            just say _kb via js
 
-Add new CSS class for "What you need to know" section so that the what you need to know sentence is easily recognizable in the card.
+    Create Drop Down:
+        create dropdown for language
+            --added languages to nav bar - drop down not successful yet
 
-Adjust Page Header:
-if screen is X small, 
-    change underscore_kb to 
-    just say _kb via js
+    Add Card Counter:
+        add card counter to the right hand side of the card header as a 
+            new header to give better flow to cardSwapper.js functionality.
 
-Create Drop Down:
-    create dropdown for language
-        --added languages to nav bar - drop down not successful yet
+    Add Swap Pause:
+        create a button that allows the user to pause the swap functionality so
+            they can copy and paste from the card or click links without swapping cards
 
-Add Card Counter:
-    add card counter to the right hand side of the card header as a 
-        new header to give better flow to cardSwapper.js functionality.
+    Make Sure Links Open New Tab:
+        just as it says
 
-Add Swap Pause:
-    create a button that allows the user to pause the swap functionality so
-        they can copy and paste from the card or click links without swapping cards
-
-Make Sure Links Open New Tab:
-    just as it says
-
-Add README.md for Github:
-    just as it says
+    Add README.md for Github:
+        just as it says
 
 --:DONE: 
-layout looks good
-header bar looks good
-nav bar looks good - maybe adjust colors
-Light Mode
-Dark Mode
-Remove any counting in the cards to accomodate possible later adjustments.
-
+    layout looks good
+    header bar looks good
+    nav bar looks good - maybe adjust colors
+    Light Mode
+    Dark Mode
+    Remove any counting in the cards to accomodate possible later adjustments.
 
 adjust responsiveness - currently trash
     adjusted responsiveness by removing position: absolute from the slider
@@ -58,28 +53,27 @@ adjust responsiveness - currently trash
     build a JS fade out or slider script that will swap cards based on an array of all the elements
         on the page with a class of box
 
+--:SNIPPETS: 
 
-
-                        <article class="box secondary-color">
-                            <h1 class="card-lead">Header</h1>
-                            <p> talk about element
+    <article class="box secondary-color">
+        <h1 class="card-lead">Header</h1>
+        <p> talk about element
 
 <xmp class="prettyprint lang-html">
     <!-- add code sample here -->
 </xmp>  
-                            </p>
-                            <p class="medium-text-black"> What you need to know:
+        </p>
+        <p class="medium-text-black"> What you need to know:
 
-                            </p>
-                            <a href=""> add a link </a>
-                        </article>
+        </p>
+        <a href=""> add a link </a>
+    </article>
 
-
-Helpful Links:
+--:Helpful Links:
 https://github.com/30-seconds/30-seconds-of-code/tree/master/vscode_snippets
 Snippets.json: C:\Users\NEO\AppData\Roaming\Code\User\snippets
 
-forLater:
+--:forLater:
 
     <!-- REMEMBER TO REMOVE TABS IN PRE/CODE ELEMENTS BECAUSE THE WHITE SPACE SHOWS UP IN THE CODE SECTION -->
 <pre><xmp class="prettyprint">
